@@ -1,0 +1,6 @@
+packages: 
+  - package: dbt-labs/dbt_utils
+    vesion: 1.1.1
+
+  - package: calogica/dbt_expectations
+    vesrion: [">=0.9", "<0.10.0"]
