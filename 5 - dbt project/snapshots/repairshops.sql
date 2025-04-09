@@ -1,4 +1,4 @@
-{% snapshot jobs_snapshot %}
+a{% snapshot repairshops_snapshot %}
 
 {{
     config(
