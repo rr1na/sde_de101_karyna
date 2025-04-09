@@ -1,0 +1,25 @@
+---
+version: 2
+sources:
+  - name: raw_layer
+    meta:
+      external_location: ./raw_data/{name}.csv
+    description: Data from application database, brought in by an EL process.
+    tables:
+      - name: repairshop
+        config:
+          tags: [raw_layer]
+        columns:
+          - name: repairshop_id
+            tests: [not_null, unique]
+      - name: jobs
+        config:
+          tags: [raw_layer]
+        columns:
+          - name: jobs_id
+            tests: [not_null, unique]
+          - name: repairshop_id
+            tests:
+              - relationships:
+                  to: source('raw_layer', 'repairshop')
+                  field: repairshop_id
