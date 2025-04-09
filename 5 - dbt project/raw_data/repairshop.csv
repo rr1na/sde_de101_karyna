@@ -1,6 +1,6 @@
-id;repairshop_name;city;Body;Mec
-1;Carrozzeria dei Tulipani ;Parma;1;0
-2;Autofficina cm;Milano;0;1
-3;Auto E Snc;Firenze;0;1
-4;Carrozzeria Borghese;Genova;1;1
-5;Carrozzeria Anello ;Milano;1;0
+id,repairshop_name,city,Body,Mec
+1,Carrozzeria dei Tulipani ,Parma,1,0
+2,Autofficina cm,Milano,0,1
+3,Auto E Snc,Firenze,0,1
+4,Carrozzeria Borghese,Genova,1,1
+5,Carrozzeria Anello,Milano,1,0
