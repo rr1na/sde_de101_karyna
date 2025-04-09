@@ -1,6 +1,6 @@
 with repairshops as (
   select * 
-  from {{ ref('stg_eltool__state') }}
+  from {{ ref('stg_eltool__repairshops') }}
 )
 
 select 
@@ -15,5 +15,5 @@ select
   CASE 
       WHEN dbt_valid_to IS NULL THEN '9999-12-31'::TIMESTAMP
       ELSE dbt_valid_to::TIMESTAMP END AS valid_to
-from repaishops
+from repairshops
   
