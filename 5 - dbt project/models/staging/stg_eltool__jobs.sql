@@ -1,6 +1,6 @@
 with source as (
   select * 
-  from {{ source('raw_layer', 'orders') }}
+  from {{ source('raw_layer', 'jobs') }}
 ),
 renamed as (
   select
