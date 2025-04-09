@@ -5,5 +5,4 @@ models:
     columns:
       - name: repairshop_id
         tests: [not_null]
-  - name: stg_eltool__orders
-  - name: stg_eltool__state
+  - name: stg_eltool__jobs
