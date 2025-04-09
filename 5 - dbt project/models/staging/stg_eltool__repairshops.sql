@@ -1,6 +1,6 @@
 with source as (
     select * 
-    from {{ ref('repaishops_snapshot') }}
+    from {{ ref('repairshops_snapshot') }}
 ),
 
 renamed as (
