@@ -6,7 +6,7 @@ sources:
       external_location: ./raw_data/{name}.csv
     description: Data from application database, brought in by an EL process.
     tables:
-      - name: repairshop
+      - name: repairshops
         config:
           tags: [raw_layer]
         columns:
