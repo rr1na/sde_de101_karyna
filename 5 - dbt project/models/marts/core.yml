@@ -1,0 +1,8 @@
+---
+version: 2
+models:
+  - name: dim_repairshops
+    columns:
+      - name: repairshop_id
+        tests: [not_null]
+  - name: fct_jobs
