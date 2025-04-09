@@ -9,7 +9,7 @@ analysis-paths: [analysis]
 test-paths: [tests]
 seed-paths: [data]
 macro-paths: [macros]
-target-paths: target
+target-path: target
 clean-targets: 
   - target
   - dbt_modules
