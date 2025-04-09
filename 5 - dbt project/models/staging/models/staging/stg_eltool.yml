@@ -1,0 +1,9 @@
+---
+version: 2
+models:
+  - name: stg_eltool__repairshops
+    columns:
+      - name: repairshop_id
+        tests: [not_null]
+  - name: stg_eltool__orders
+  - name: stg_eltool__state
